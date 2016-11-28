@@ -54,4 +54,35 @@
 * who                列出当前登录的所有用户
 * whoami              显示当前正进行操作的用户名
 
+# Git命令
+### 1.服务器拉取代码
+* git clone "url"         说明:url为服务器地址,用https的地址
+### 2.本地代码上传服务器
+* (最简单的方法)先在服务器上创建好项目,然后clone到本地,然后把项目copy进去.
+* (严格的方法) cd 到该项目的路径下
+*  git init
+*  git add .
+*  git remote add origin "url" 
+*  git commit -m "你的本次提交的备注信息"
+*  git pull
+*  git push 
+### 3.查看命令
+* git status            查看当前git的状态(未拉取的提交,和本地未提交的版本)
+* git log                
+* git show
+* git diff
+* git config 
+### 提交命令
+* git add "文件名"
+* git add .
+* git pull
+* git push    
+  
+### 分支操作
+
+### gitignore的使用
+
+### 如何切换不同的服务器
+
+
 后续补充中...
